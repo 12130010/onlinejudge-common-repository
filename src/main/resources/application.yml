@@ -1,0 +1,12 @@
+#spring:
+#  data:
+#    mongodb:
+#      host: localhost
+#      username: demoMongo
+#      password: ${MONGODB_PASSWORD:P@ssword123}
+#      database: demoMongo
+#      port: 27017
+#      authentication-database: demoMongo
+#logging:
+#  level:
+#    org.springframework.security: DEBUG
