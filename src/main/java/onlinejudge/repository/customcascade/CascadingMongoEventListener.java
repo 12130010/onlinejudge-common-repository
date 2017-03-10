@@ -3,7 +3,6 @@ package onlinejudge.repository.customcascade;
 import java.lang.reflect.Field;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -15,6 +14,8 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventListener;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ReflectionUtils;
+
+import onlinejudge.anotation.customcascade.CascadeSave;
 
 @Component
 public class CascadingMongoEventListener<E> extends AbstractMongoEventListener<E> {
