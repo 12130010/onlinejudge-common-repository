@@ -6,6 +6,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import onlinejudge.domain.Submit;
 
-public interface SubmitRepository extends PagingAndSortingRepository<Submit, BigInteger>{
+public interface SubmitRepository extends PagingAndSortingRepository<Submit, String>{
 
 }
